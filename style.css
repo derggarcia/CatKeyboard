@@ -1,1 +1,75 @@
-/* this part of the environment will be used for the appearance of the code */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Relief', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(255, 255, 255) 2%, #005A9C 100%);
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.links a {
+    font-size: 20px;
+}
+
+.keyboard-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: space-between;
+    gap: 20px;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background: rgb(255, 207, 124);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 22px
+}
+
+.keys {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+    flex-shrink: 0;
+}
+.cat-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+}
+.keyboard-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px
+}
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
