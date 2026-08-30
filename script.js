@@ -1,1 +1,6 @@
-// this part of the code will be used for its interactivity and functionality
+function scrollToSelection() {
+    const section = document.getElementById("section2");
+    if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+    }
+}
